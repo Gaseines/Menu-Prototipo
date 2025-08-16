@@ -1,52 +1,82 @@
-.all{
-   background-color: black;
-   height: 100vh;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+.all {
+  background-image: url(../assets/images/restaurante.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.all::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.61);
+}
+
+.logo {
+  width: 400px;
+  height: 128px;
+  margin-top: 50px;
+}
+
+.container_img{
+    z-index: 1;
+}
+
+.container_nav {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  z-index: 1;
+}
+
+.nav {
+  
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 80%;
+  font-family: 'serifada';
+  font-size: 2.5rem;
 
 }
 
-.logo{
-    width: 400px;
-    height: 128px;
-    margin-top: 50px;
-}
-
-.container_nav{
-    width: 90%;
-    height: 70%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.nav{
-    color: white;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    height: 80%;
-    
-    box-shadow: rgba(255, 255, 255, 0.35)px 8px;
-}
-
-.nav:hover{
+.option{
+    color: rgb(199, 199, 199);
+    position: relative;
     cursor: pointer;
-    transform: scale(102%);
+
     transition: all .5s;
 }
 
-.nav_1{
-    background-image: url("../assets/images/img_prato_capa.jpg");
-    background-size: cover;
-    background-position: center center;
+.option::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(199, 199, 199);
+    width: 50%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+
+    transition: all .5s;
+    
 }
 
-.nav_2{
-    background-image: url("../assets/images/img_reserva_capa.jpg");
-    background-size: cover;
-    background-position: center center;
+.option:hover{
+    color: white;
+}
+
+.option:hover::after {
+  width: 100%;
+  background-color: white;
 }

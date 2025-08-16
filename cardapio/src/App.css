@@ -2,3 +2,13 @@
   margin: 0;
   padding: 0;
 }
+
+@font-face {
+  font-family: "escrita";
+  src: url('./assets/fonts/High\ Empathy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "serifada";
+  src: url('./assets/fonts/BellavoirSerif_PERSONAL_USE_ONLY.otf') format('opentype');
+}
