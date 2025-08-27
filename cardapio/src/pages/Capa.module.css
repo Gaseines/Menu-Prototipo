@@ -20,12 +20,11 @@
 
 .logo {
   width: 400px;
-  height: 128px;
   margin-top: 50px;
 }
 
-.container_img{
-    z-index: 1;
+.container_img {
+  z-index: 1;
 }
 
 .container_nav {
@@ -39,35 +38,49 @@
 }
 
 .nav {
-  
   margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30%;
   height: 80%;
-  font-family: 'serifada';
+  font-family: "serifada";
   font-size: 2.5rem;
-
 }
 
-.option{
-    color: rgb(199, 199, 199);
-    position: relative;
-    cursor: pointer;
-    filter: blur(0);
+.option {
+  color: rgb(199, 199, 199);
+  position: relative;
+  cursor: pointer;
+  filter: blur(0);
 
-    transition: all .5s;
+  transition: all 0.5s;
 }
 
-
-.option:hover{
-    color: white;
-    filter: blur(1.5px);
-    font-size: 5.5rem;
+.option:hover {
+  color: white;
+  filter: blur(1.5px);
+  font-size: 5.5rem;
 }
 
-.link{
+.link {
   text-decoration: none;
 }
 
+@media (max-width: 925px) {
+  .logo {
+    width: 300px;
+  }
+
+  .container_nav {
+    flex-direction: column;
+  }
+
+  .nav {
+    font-size: 1.8rem;
+  }
+
+  .option:hover {
+    font-size: 4.2rem;
+  }
+}
