@@ -10,7 +10,9 @@ const Capa = () => {
       </div>
       <div className={styles.container_nav}>
         <div className={`${styles.nav_1} ${styles.nav}`}>
-          <h1 className={styles.option}>Menu</h1>
+          <a className={styles.link} href="/docs/Menu.pdf" target="_blank" rel="noopener noreferrer">
+            <h1 className={styles.option}>Menu</h1>
+          </a>
         </div>
         <div className={`${styles.nav_2} ${styles.nav}`}>
           <h1 className={styles.option}>Reserva</h1>
