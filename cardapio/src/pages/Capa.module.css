@@ -67,6 +67,16 @@
   text-decoration: none;
 }
 
+/* Contato */
+.container_contato{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/images/pano.jpg);
+  
+  z-index: 2;
+}
+
 @media (max-width: 925px) {
   .logo {
     width: 300px;

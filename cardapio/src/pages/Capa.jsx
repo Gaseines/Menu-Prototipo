@@ -18,6 +18,11 @@ const Capa = () => {
           <h1 className={styles.option}>Reserva</h1>
         </div>
       </div>
+      <div className={styles.container_contato}>
+        <div>
+          <h1>Contatos para Reserva</h1>
+        </div>
+      </div>
     </div>
   );
 };
