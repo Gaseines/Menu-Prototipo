@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Menu-Prototipo/static/css/main.123c4b38.css",
-    "main.js": "/Menu-Prototipo/static/js/main.ffa8dfb1.js",
+    "main.css": "/Menu-Prototipo/static/css/main.6d15f6a6.css",
+    "main.js": "/Menu-Prototipo/static/js/main.f72e061b.js",
     "static/js/453.fe9b2870.chunk.js": "/Menu-Prototipo/static/js/453.fe9b2870.chunk.js",
     "static/media/restaurante2.jpg": "/Menu-Prototipo/static/media/restaurante2.5540157fbec5d3e0f4ba.jpg",
+    "static/media/pano.jpg": "/Menu-Prototipo/static/media/pano.d9cbfea6802002ea87c2.jpg",
     "static/media/BellavoirSerif_PERSONAL_USE_ONLY.otf": "/Menu-Prototipo/static/media/BellavoirSerif_PERSONAL_USE_ONLY.ed371c598415b8784269.otf",
     "static/media/teste.png": "/Menu-Prototipo/static/media/teste.1af228df9560522d9bca.png",
     "static/media/High Empathy.ttf": "/Menu-Prototipo/static/media/High Empathy.a0677c31cecfa79cdf04.ttf",
     "index.html": "/Menu-Prototipo/index.html",
-    "main.123c4b38.css.map": "/Menu-Prototipo/static/css/main.123c4b38.css.map",
-    "main.ffa8dfb1.js.map": "/Menu-Prototipo/static/js/main.ffa8dfb1.js.map",
+    "main.6d15f6a6.css.map": "/Menu-Prototipo/static/css/main.6d15f6a6.css.map",
+    "main.f72e061b.js.map": "/Menu-Prototipo/static/js/main.f72e061b.js.map",
     "453.fe9b2870.chunk.js.map": "/Menu-Prototipo/static/js/453.fe9b2870.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.123c4b38.css",
-    "static/js/main.ffa8dfb1.js"
+    "static/css/main.6d15f6a6.css",
+    "static/js/main.f72e061b.js"
   ]
 }
