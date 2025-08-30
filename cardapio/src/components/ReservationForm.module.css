@@ -1,0 +1,38 @@
+.formulario {
+  width: 90%;
+  margin: auto;
+}
+
+.campo {
+  margin: 10px 20px 0px 20px;
+  
+}
+
+.label {
+  font-weight: bold;
+  
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* branco */
+  cursor: pointer;
+}
+
+input{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn_wts {
+  margin: auto;
+  background-color: black;
+  border: none;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 3px;
+
+  transition: all 0.2s ease-in;
+}
+
+.btn_wts:hover {
+  background-color: rgb(68, 68, 68);
+}

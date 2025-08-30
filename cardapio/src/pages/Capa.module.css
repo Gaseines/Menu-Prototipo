@@ -73,8 +73,44 @@
   width: 100%;
   height: 100%;
   background-image: url(../assets/images/pano.jpg);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   
+  transition: all 1s ease;
   z-index: 2;
+}
+
+.container_lock{
+  clip-path: polygon(0 0, 100% 0, 100% 0%, 0 0%);
+}
+
+.container_open{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.contato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.contato h1{
+  font-family: "serifada";
+  font-size: 4rem;
+  margin-bottom: 50px;
+}
+
+.seta{
+  width: 30px;
+  margin: 20px;
+  cursor: pointer;
+
+  transition: all .3s ease-in-out;
+}
+
+.seta:hover{
+  transform: translateX(-5px);
 }
 
 @media (max-width: 925px) {
