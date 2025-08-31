@@ -37,8 +37,8 @@ const Capa = () => {
         <div className={styles.contato}>
           <h1>Reserva</h1>
           <ReservationForm
-            whatsappNumber="554999828876"
-            restaurantName="Food Park"
+            whatsappNumber="5547999226050"
+            restaurantName="[Nome do restaurante]"
           />
         </div>
       </div>
